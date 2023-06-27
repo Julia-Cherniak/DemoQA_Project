@@ -28,7 +28,6 @@ describe('homePage', ()  => {
             homePage
                 .clickEachCardList(ind)
                 .should('contain', homePageData.endPointUrl[ind])
-                .should('contain', homePageData.endPointUrl[ind])
             });
     });
 });
