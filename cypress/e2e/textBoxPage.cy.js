@@ -18,7 +18,7 @@ describe('textBoxPage', () => {
             .should('have.text', textBoxPageData.textHeader)
     });
 
-    it('AT.003.001 Verify user can fill in the text-box form', () => {
+    it('AT.003.002 Verify user can fill in the text-box form', () => {
         homePage
             .clickElementsCard()
             .clickTextBoxLink()
