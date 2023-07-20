@@ -1,0 +1,25 @@
+{
+    "listsOfElements": [
+        "Text Box",
+        "Check Box",
+        "Radio Button",
+        "Web Tables",
+        "Buttons",
+        "Links",
+        "Broken Links - Images",
+        "Upload and Download",
+        "Dynamic Properties"
+    ],
+    "endPointUrlElements": [
+        "/text-box",
+        "/checkbox",
+        "/radio-button",
+        "/webtables",
+        "/buttons",
+        "/links",
+        "/broken",
+        "/upload-download",
+        "/dynamic-properties"
+    ],
+    "elementsPageText": "Please select an item from left to start practice."
+}
