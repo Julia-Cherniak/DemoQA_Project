@@ -15,7 +15,7 @@ describe('textBoxPage', () => {
             .clickTextBoxLink()
             .getHeaderText()
             .should('be.visible')
-            .should('have.text', textBoxPageData.textHeader)
+            .and('have.text', textBoxPageData.textHeader);
     });
 
     it('AT.003.002 Verify user can fill in the text-box form', () => {
