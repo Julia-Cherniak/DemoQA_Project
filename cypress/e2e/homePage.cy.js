@@ -16,7 +16,7 @@ describe('homePage', ()  => {
             .should('eq', homePageData.homePageUrl);
     });
 
-    it('AT.001.002 Verify the avalidity of all cards on the page and length of this cards', () => {
+    it('AT.001.002 Verify the availability of all cards on the page and length of this cards', () => {
         homePage
             .checkHomePageCardList()
             .should('deep.equal', homePageData.listOfCards)

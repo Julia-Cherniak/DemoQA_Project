@@ -1,6 +1,5 @@
 /// <reference types="cypress" />
 import HomePage from "../pageObject/HomePage";
-//import ElementsPage from "../pageObject/ElementsPage";
 import elementsPageData from "../fixtures/elementsPage.json";
 
 describe('elementsPage', () => {
